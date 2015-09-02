@@ -1,0 +1,10 @@
+<h3>Resultado</h3>
+<tbody>
+	<% @pessoas.each do |pessoa| %>
+		<tr>
+			<td>Name: <%=pessoa.name%></td>
+			<td>LName: <%=pessoa.last_name%></td>
+		</tr>
+	<% end %>
+</tbody>
+<td><%= link_to 'Nova Busca', buscar_path %></td>
