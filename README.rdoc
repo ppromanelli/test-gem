@@ -23,6 +23,6 @@ Things you may want to cover:
 
 * ...
 
+This app is a stanffold of Pessoas, with all crud functions. Databases already configured with postgree,
+and deploied with heroku(after some sqlite problems). One TDD as made for serch people just write 'rspec'.
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
