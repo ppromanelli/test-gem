@@ -1,7 +1,6 @@
 class PessoasController < ApplicationController
   before_action :set_pessoa, only: [:show, :edit, :update, :destroy]
 
-  
   # GET /pessoas
   # GET /pessoas.json
   def index
@@ -13,6 +12,10 @@ class PessoasController < ApplicationController
 
   def resultado
     @pessoas = Pessoa.search(params[:query])
+  end
+
+  def testando
+    @pessoas = Pessoa.testando
   end
 
   # GET /pessoas/1

@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   
   get "/buscar" =>"pessoas#buscar"
   post "/resultado" => "pessoas#resultado"
-
+  get "/testando" => "pessoas#testando"
 
   root:to =>"pessoas#index"
   # The priority is based upon order of creation: first created -> highest priority.
